@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "bpBI9Utd0rwXhTjVofH9vzaNidDiX3xo2K/sWft+H7III236UZCm6ZNr8D+NhDpORt+X331kGRDKbZeCFH76+Q==",
+  "dgSpecHash": "j9wZsKesjoW9WdrsnPFB8ryEUK9nUFYn5pAmMx6/SdTZlVHgql3lIpe5y4bw8Yj85KZKRNugC9vO4y8fyrYefw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.DAL\\BolsaEmpleo.DAL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vazqu\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

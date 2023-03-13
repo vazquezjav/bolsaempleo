@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolsaEmpleo", "BolsaEmpleo\BolsaEmpleo.csproj", "{FAEDA4E9-0168-4872-ABE1-C04BB186F92B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BolsaEmpleo", "BolsaEmpleo\BolsaEmpleo.csproj", "{FAEDA4E9-0168-4872-ABE1-C04BB186F92B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolsaEmpleo.MODELS", "BolsaEmpleo.MODELS\BolsaEmpleo.MODELS.csproj", "{00D9F33E-0C95-470C-86CE-D73C9292D1BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolsaEmpleo.DAL", "BolsaEmpleo.DAL\BolsaEmpleo.DAL.csproj", "{4276AF91-1465-4461-B032-47EA8E738B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolsaEmpleo.BIL", "BolsaEmpleo.BIL\BolsaEmpleo.BIL.csproj", "{3BB36977-CAA8-4D43-938A-724038EC4AE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BolsaEmpleo.EXCEPTIONS", "BolsaEmpleo.EXCEPTIONS\BolsaEmpleo.EXCEPTIONS.csproj", "{DB646842-B7E1-4DA1-9274-319922A468E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{FAEDA4E9-0168-4872-ABE1-C04BB186F92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAEDA4E9-0168-4872-ABE1-C04BB186F92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAEDA4E9-0168-4872-ABE1-C04BB186F92B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D9F33E-0C95-470C-86CE-D73C9292D1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D9F33E-0C95-470C-86CE-D73C9292D1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D9F33E-0C95-470C-86CE-D73C9292D1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D9F33E-0C95-470C-86CE-D73C9292D1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4276AF91-1465-4461-B032-47EA8E738B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4276AF91-1465-4461-B032-47EA8E738B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4276AF91-1465-4461-B032-47EA8E738B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4276AF91-1465-4461-B032-47EA8E738B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB36977-CAA8-4D43-938A-724038EC4AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB36977-CAA8-4D43-938A-724038EC4AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB36977-CAA8-4D43-938A-724038EC4AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB36977-CAA8-4D43-938A-724038EC4AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB646842-B7E1-4DA1-9274-319922A468E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB646842-B7E1-4DA1-9274-319922A468E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB646842-B7E1-4DA1-9274-319922A468E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB646842-B7E1-4DA1-9274-319922A468E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

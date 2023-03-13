@@ -1,0 +1,12 @@
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\bin\Debug\net7.0\BolsaEmpleo.MODELS.deps.json
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\bin\Debug\net7.0\BolsaEmpleo.MODELS.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\bin\Debug\net7.0\BolsaEmpleo.MODELS.pdb
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.csproj.AssemblyReference.cache
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.AssemblyInfoInputs.cache
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.AssemblyInfo.cs
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.csproj.CoreCompileInputs.cache
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\refint\BolsaEmpleo.MODELS.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.pdb
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\ref\BolsaEmpleo.MODELS.dll

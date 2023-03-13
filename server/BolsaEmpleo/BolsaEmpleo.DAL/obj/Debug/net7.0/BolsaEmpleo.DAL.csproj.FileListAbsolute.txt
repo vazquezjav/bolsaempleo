@@ -1,0 +1,17 @@
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\bin\Debug\net7.0\BolsaEmpleo.DAL.deps.json
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\bin\Debug\net7.0\BolsaEmpleo.DAL.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\bin\Debug\net7.0\BolsaEmpleo.DAL.pdb
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\bin\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\bin\Debug\net7.0\BolsaEmpleo.MODELS.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\bin\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.pdb
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\bin\Debug\net7.0\BolsaEmpleo.MODELS.pdb
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\obj\Debug\net7.0\BolsaEmpleo.DAL.csproj.AssemblyReference.cache
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\obj\Debug\net7.0\BolsaEmpleo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\obj\Debug\net7.0\BolsaEmpleo.DAL.AssemblyInfoInputs.cache
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\obj\Debug\net7.0\BolsaEmpleo.DAL.AssemblyInfo.cs
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\obj\Debug\net7.0\BolsaEmpleo.DAL.csproj.CoreCompileInputs.cache
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\obj\Debug\net7.0\BolsaEmpleo.DAL.csproj.CopyComplete
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\obj\Debug\net7.0\BolsaEmpleo.DAL.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\obj\Debug\net7.0\refint\BolsaEmpleo.DAL.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\obj\Debug\net7.0\BolsaEmpleo.DAL.pdb
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.DAL\obj\Debug\net7.0\ref\BolsaEmpleo.DAL.dll

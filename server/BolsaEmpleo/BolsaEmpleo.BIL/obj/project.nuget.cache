@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "4CnY33ELlWfULXYG84ujnGZtZXOdkVSEqs45WLKYzJIeqO5pFTeXOz3W2G+bAMfRRTIgwLokb/f/8bQyuPuqIQ==",
+  "dgSpecHash": "39n8NPUZUWZ13iEzG/2yfeu6S2SaLl5ttTphvUlBFBZb6+J9dSXyNp/M3/rIXJqnpHu4Y7DMfbWW6Hjxmj5HPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.BIL\\BolsaEmpleo.BIL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vazqu\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.2.0\\microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\vazqu\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

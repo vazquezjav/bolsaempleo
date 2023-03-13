@@ -1,11 +1,283 @@
-
 <div style="background: #ECECEC;padding:30px; width: auto; height: auto;">
-    <div nz-row [nzGutter]="8">
-      <div nz-col [nzSpan]="24">
-        <nz-card>
-          <p>Card content</p>
-        </nz-card>
-      </div>
+    <div nz-row [nzGutter]="[12,12]">
+        <div nz-col [nzSpan]="24">
+            <nz-card>
+                <form nz-form [formGroup]="validateForm" (ngSubmit)="submitForm()">
+                    <nz-divider nzText="Aplicacion"></nz-divider>
+                    <nz-row>
+                        <nz-col nzSpan="24">
+                            <nz-form-item>
+                                <nz-form-label [nzSm]="7" [nzXs]="24" nzRequired>Area</nz-form-label>
+                                <nz-form-control [nzSm]="12" [nzXs]="24" nzHasFeedback [nzErrorTip]="areaErrorTpl">
+                                    <nz-select nzShowSearch nzAllowClear formControlName="area" style="width: 100%;">
+                                        <nz-option [nzValue]="item.code" [nzLabel]="item.value"
+                                            *ngFor="let item of area">
+                                        </nz-option>
+                                    </nz-select>
+                                    <ng-template #areaErrorTpl let-control>
+                                        <ng-container *ngIf="control.hasError('required')">Por favor seleccione una
+                                            area!</ng-container>
+                                    </ng-template>
+                                </nz-form-control>
+                            </nz-form-item>
+                        </nz-col>
+                    </nz-row>
+                    <nz-row>
+                        <nz-col nzSpan="24">
+                            <nz-form-item>
+                                <nz-form-label [nzSm]="7" [nzXs]="24" nzRequired>Conocimientos</nz-form-label>
+                                <nz-form-control [nzSm]="12" [nzXs]="24" nzHasFeedback
+                                    nzErrorTip="Por favor ingrese sus conocimientos.">
+                                    <nz-textarea-count [nzMaxCharacterCount]="500">
+                                        <textarea formControlName="knowledge" nz-input rows="2" maxlength="500"
+                                            placeholder="Por favor ingrese sus conocimientos. Maximo 500 caracteres!"></textarea>
+                                    </nz-textarea-count>
+                                </nz-form-control>
+                            </nz-form-item>
+                        </nz-col>
+                    </nz-row>
+
+                    <nz-row>
+                        <nz-form-item>
+                            <nz-form-label [nzSm]="7" [nzXs]="24" nzRequired>Experiencia en el area</nz-form-label>
+
+                            <nz-col [nzSm]="7"  [nzXs]="24" >
+                                <nz-form-item>
+                                    <nz-form-label [nzMd]="24" [nzXl]="7" [nzXs]="12"  [nzLg]="10" nzRequired>Sector Publico</nz-form-label>
+                                    <nz-form-control [nzSpan]="4" [nzMd]="24"  [nzXs]="12" nzHasFeedback
+                                        nzErrorTip="Por favor ingrese sus años de experiencia!">
+                                            <nz-input-number-group  nzAddOnAfter="años">
+                                                <nz-input-number formControlName="public_sector" [nzMin]="0" [nzMax]="50"
+                                            [nzStep]="1"></nz-input-number> 
+                                              </nz-input-number-group>
+                                    </nz-form-control>
+                                </nz-form-item>
+                            </nz-col>
+                            <nz-col [nzSm]="8"  [nzXs]="24" >
+                                <nz-form-item>
+                                    <nz-form-label [nzMd]="24" [nzXl]="7" [nzXs]="12"   [nzLg]="9" nzRequired>Sector Privado</nz-form-label>
+                                    <nz-form-control [nzMd]="24" [nzSpan]="4" [nzXl]="8" [nzLg]="9" [nzXs]="12" nzHasFeedback
+                                        nzErrorTip="Por favor ingrese sus años de experiencia!">
+                                        <nz-input-number-group  nzAddOnAfter="años">
+                                        <nz-input-number formControlName="private_sector" [nzMin]="0" [nzMax]="50"
+                                            [nzStep]="1"></nz-input-number>
+                                          </nz-input-number-group>
+                                        
+                                    </nz-form-control>
+                                </nz-form-item>
+                            </nz-col>
+                        </nz-form-item>
+                    </nz-row>
+                    <nz-divider nzText="Ficha Personal"></nz-divider>
+                    <nz-row>
+                        <nz-row>
+                            <nz-col nzSm="17" >
+                                <nz-row>
+                                    <nz-col nzSpan="24">
+                                        <nz-form-item>
+                                            <nz-form-label [nzSpan]="10" nzRequired>Número de Cédula</nz-form-label>
+                                            <nz-form-control [nzSpan]="14" nzHasFeedback [nzErrorTip]="userErrorTpl">
+                                                <input nz-input formControlName="identification"
+                                                    placeholder="Ingrese su numero de cedula" maxlength="10" style="width: 98%;"/>
+                                                <ng-template #userErrorTpl let-control>
+                                                    <ng-container *ngIf="control.hasError('required')">Por favor ingrese
+                                                        un numero
+                                                        de
+                                                        cedula!</ng-container>
+                                                    <ng-container *ngIf="!control.hasError('status')">El numero de
+                                                        cedula es
+                                                        incorrecto!</ng-container>
+                                                </ng-template>
+                                            </nz-form-control>
+                                        </nz-form-item>
+                                    </nz-col>
+                                </nz-row>
+                                <nz-row>
+                                    <nz-col nzSpan="16" >
+                                        <nz-form-item style="justify-content: flex-end;">
+                                            <nz-form-label [nzSpan]="15" nzRequired>Primer Apellido</nz-form-label>
+                                            <nz-form-control [nzSpan]="9" nzHasFeedback
+                                                nzErrorTip="Por favor ingrese su apellido">
+                                                <input nz-input formControlName="first_surname"
+                                                    placeholder="Ingrese  su primer apellido" minlength="3"
+                                                    maxlength="100" style="width: 100%;"/>
+                                            </nz-form-control>
+                                        </nz-form-item>
+                                    </nz-col>
+                                    <nz-col nzSpan="8">
+                                        <nz-form-item>
+                                            <nz-form-label [nzSpan]="10" nzRequired>Segundo Apellido</nz-form-label>
+                                            <nz-form-control [nzSpan]="13" nzHasFeedback
+                                                nzErrorTip="Por favor ingrese su segundo apellido">
+                                                <input nz-input formControlName="second_surname"
+                                                    placeholder="Ingrese su segundo apellido" minlength="3"
+                                                    maxlength="100" />
+                                            </nz-form-control>
+                                        </nz-form-item>
+                                    </nz-col>
+                                </nz-row>
+
+                                <nz-row>
+                                    <nz-col nzSpan="16">
+                                        <nz-form-item style="justify-content: flex-end;">
+                                            <nz-form-label [nzSpan]="15" nzRequired>Primer Nombre</nz-form-label>
+                                            <nz-form-control [nzSpan]="9" nzHasFeedback>
+                                                <input nz-input formControlName="first_name"
+                                                    placeholder="Ingrese segundo nombre" minlength="3"
+                                                    maxlength="100" />
+                                            </nz-form-control>
+                                        </nz-form-item>
+                                    </nz-col>
+                                    <nz-col nzSpan="8">
+                                        <nz-form-item>
+                                            <nz-form-label [nzSpan]="10" nzRequired>Segundo Nombre</nz-form-label>
+                                            <nz-form-control [nzSpan]="13" nzHasFeedback
+                                                nzErrorTip="Por favor ingrese su segundo apellido">
+                                                <input nz-input formControlName="second_name"
+                                                    placeholder="Ingrese su segundo apellido" minlength="3"
+                                                    maxlength="100" />
+                                            </nz-form-control>
+                                        </nz-form-item>
+                                    </nz-col>
+                                </nz-row>
+                            </nz-col>
+                            <nz-col nzSm="7" >
+                                <nz-upload class="avatar-uploader" nzName="avatar" nzListType="picture-card"
+                                    [nzShowUploadList]="false" [nzBeforeUpload]="beforeUpload"
+                                    (nzChange)="handleChange($event)">
+                                    <ng-container *ngIf="!avatarUrl">
+                                        <span class="upload-icon" nz-icon
+                                            [nzType]="loading ? 'loading' : 'plus'"></span>
+                                        <div class="ant-upload-text">Upload</div>
+                                    </ng-container>
+                                    <img *ngIf="avatarUrl" [src]="avatarUrl" style="width: 100%" />
+                                </nz-upload>
+                            </nz-col>
+                        </nz-row>
+                    </nz-row>
+
+                    <nz-row>
+                        <nz-col nzSpan="24">
+                            <nz-form-item>
+                                <nz-form-label [nzSpan]="7">Teléfono convencional</nz-form-label>
+                                <nz-form-control [nzSpan]="12" nzHasFeedback>
+                                    <input nz-input formControlName="phone" placeholder="Ingrese su numero de telefono"
+                                        minlength="3" maxlength="10" />
+                                </nz-form-control>
+                            </nz-form-item>
+                        </nz-col>
+                    </nz-row>
+                    <nz-row>
+                        <nz-col nzSpan="24">
+                            <nz-form-item>
+                                <nz-form-label [nzSpan]="7" nzRequired>Teléfono celular</nz-form-label>
+                                <nz-form-control [nzSpan]="12" nzHasFeedback>
+                                    <input nz-input formControlName="mobile" placeholder="Ingrese su numero de celular"
+                                        minlength="3" maxlength="10" />
+                                </nz-form-control>
+                            </nz-form-item>
+                        </nz-col>
+                    </nz-row>
+
+                    <nz-form-item>
+                        <nz-form-label [nzSpan]="7" nzRequired>Estado civil</nz-form-label>
+                        <nz-form-control [nzSpan]="12" nzHasFeedback [nzErrorTip]="statusError">
+                            <nz-select nzShowSearch nzAllowClear formControlName="status_civil" style="width: 100%;">
+                                <nz-option [nzValue]="item.code" [nzLabel]="item.value"
+                                    *ngFor="let item of civils_status">
+                                </nz-option>
+                            </nz-select>
+                            <ng-template #statusError let-control>
+                                <ng-container *ngIf="control.hasError('required')">Por favor seleccione su estado
+                                    civil!</ng-container>
+                            </ng-template>
+                        </nz-form-control>
+                    </nz-form-item>
+                    <nz-row>
+                        <nz-col nzSpan="24">
+
+                        </nz-col>
+                    </nz-row>
+                    <nz-form-item>
+                        <nz-form-label [nzSpan]="7" nzRequired>Numero de hijos</nz-form-label>
+                        <nz-form-control [nzSpan]="12" nzHasFeedback [nzErrorTip]="publicError">
+                            <nz-input-number formControlName="number_children" [nzMin]="0" [nzMax]="20"
+                                [nzStep]="1"></nz-input-number>
+                            <ng-template #publicError let-control>
+                                <ng-container *ngIf="control.hasError('required')">Por favor ingrese la cantidad de
+                                    hijos!</ng-container>
+                            </ng-template>
+                        </nz-form-control>
+                    </nz-form-item>
+                    <nz-row>
+                        <nz-col nzSpan="24">
+
+                        </nz-col>
+                    </nz-row>
+                    <nz-form-item>
+                        <nz-form-label [nzSpan]="7" nzRequired>Fecha de Nacimiento</nz-form-label>
+                        <nz-form-control [nzSpan]="12" nzHasFeedback [nzErrorTip]="errorDate">
+                            <nz-date-picker name="date-picker-success" formControlName="date_birth" nzAllowClear
+                                style="width: 100%;" nzFormat="dd/MM/yyyy"
+                                [nzDisabledDate]="disabledDate"></nz-date-picker>
+                            <ng-template #errorDate let-control>
+                                <ng-container *ngIf="control.hasError('required')">Por favor ingrese su fecha de
+                                    nacimiento!</ng-container>
+                            </ng-template>
+                        </nz-form-control>
+                    </nz-form-item>
+                    <nz-row>
+                        <nz-col nzSpan="24">
+
+                        </nz-col>
+                    </nz-row>
+
+                    <nz-form-item>
+                        <nz-form-label [nzSpan]="7" nzRequired>Dirección de Domicilio</nz-form-label>
+                        <nz-form-control [nzSpan]="12" nzHasFeedback
+                            nzErrorTip="Por favor la dirección de su domicilio">
+                            <nz-textarea-count [nzMaxCharacterCount]="200">
+                                <textarea formControlName="address" nz-input rows="2" maxlength="200"
+                                    placeholder="Por favor ingresa la dirección de su domicilio. Maximo 200 caracteres!"></textarea>
+                            </nz-textarea-count>
+                        </nz-form-control>
+                    </nz-form-item>
+                    <nz-row>
+                        <nz-col nzSpan="24">
+
+                        </nz-col>
+                    </nz-row>
+                    <nz-form-item>
+                        <nz-form-label [nzSpan]="7" nzRequired>Discapacidad</nz-form-label>
+                        <nz-form-control [nzSpan]="12" nzHasFeedback
+                            nzErrorTip="Por favor indique si posee una discapacidad!">
+                            <nz-select nzShowSearch nzAllowClear formControlName="disability" style="width: 100%;">
+                                <nz-option [nzValue]="item.code" [nzLabel]="item.value" *ngFor="let item of disability">
+                                </nz-option>
+                            </nz-select>
+                        </nz-form-control>
+                    </nz-form-item>
+                    <nz-row>
+                        <nz-col nzSpan="24">
+
+                        </nz-col>
+                    </nz-row>
+                    <nz-form-item>
+                        <nz-form-label [nzSpan]="7" nzRequired>Correo electronico</nz-form-label>
+                        <nz-form-control [nzSpan]="12" nzHasFeedback [nzErrorTip]="emailErrorTpl">
+                            <input nz-input formControlName="email" placeholder="Ingrese su correo electronico"
+                                type="email" />
+                            <ng-template #emailErrorTpl let-control>
+                                <ng-container *ngIf="control.hasError('email')">Es un correo invalido!</ng-container>
+                                <ng-container *ngIf="control.hasError('required')">Por favor ingrese un
+                                    correo!</ng-container>
+                            </ng-template>
+                        </nz-form-control>
+                    </nz-form-item>
+
+                </form>
+
+            </nz-card>
+        </div>
     </div>
-  </div>
-  
+</div>

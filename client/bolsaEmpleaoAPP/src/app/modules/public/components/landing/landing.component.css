@@ -1,3 +1,6 @@
 nz-card{
 border-radius: 15px;
 }
+:host ::ng-deep .ant-row{
+    width:100%;
+}

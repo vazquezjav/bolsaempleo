@@ -1,0 +1,12 @@
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\obj\Release\net7.0\linux-x64\PubTmp\Out\BolsaEmpleo
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\obj\Release\net7.0\linux-x64\PubTmp\Out\appsettings.Development.json
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\obj\Release\net7.0\linux-x64\PubTmp\Out\appsettings.json
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\obj\Release\net7.0\linux-x64\PubTmp\Out\BolsaEmpleo.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\obj\Release\net7.0\linux-x64\PubTmp\Out\BolsaEmpleo.deps.json
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\obj\Release\net7.0\linux-x64\PubTmp\Out\BolsaEmpleo.runtimeconfig.json
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\obj\Release\net7.0\linux-x64\PubTmp\Out\BolsaEmpleo.pdb
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\obj\Release\net7.0\linux-x64\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\obj\Release\net7.0\linux-x64\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\obj\Release\net7.0\linux-x64\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\obj\Release\net7.0\linux-x64\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\obj\Release\net7.0\linux-x64\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
