@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
 namespace BolsaEmpleo.BIL.LANDING
 {
@@ -17,12 +17,15 @@ namespace BolsaEmpleo.BIL.LANDING
 
         public readonly DocumentRepository repository;
         private readonly IConfiguration configuration;
-        private IHostEnvironment Environment;
+        private readonly IHostEnvironment hostingEnvironment;
 
-        public DocumentService(DocumentRepository repository)
+        public DocumentService(DocumentRepository repository, IConfiguration configuration, IHostEnvironment hostingEnvironment)
         {
             this.repository = repository;
+            this.configuration = configuration;
+            this.hostingEnvironment = hostingEnvironment;
         }
+
         public DocumentModel save(DocumentModel model, UsuarioModel user)
             => this.repository.save(model, user);  
         

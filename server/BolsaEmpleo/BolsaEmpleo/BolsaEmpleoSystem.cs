@@ -9,6 +9,7 @@ namespace BolsaEmpleo
         public static void addInstanceSystem(IServiceCollection services)
         {
             services.AddSingleton<IDbContext, PgDbContext>();
+            services.AddSingleton<Microsoft.Extensions.Hosting.IHostEnvironment>();
 
             services.AddScoped<StateCivilService>();
             services.AddScoped<StateCivilRepository>();
