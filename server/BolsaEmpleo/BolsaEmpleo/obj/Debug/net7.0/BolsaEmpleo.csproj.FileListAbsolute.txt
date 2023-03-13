@@ -59,3 +59,6 @@ C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\bin\
 C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\bin\Debug\net7.0\Microsoft.Extensions.Hosting.dll
+C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
