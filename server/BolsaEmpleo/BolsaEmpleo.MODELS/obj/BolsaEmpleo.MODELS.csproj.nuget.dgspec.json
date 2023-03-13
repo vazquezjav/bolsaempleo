@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.MODELS\\BolsaEmpleo.MODELS.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\PROYECTOS\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.MODELS\\BolsaEmpleo.MODELS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.MODELS\\BolsaEmpleo.MODELS.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\PROYECTOS\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.MODELS\\BolsaEmpleo.MODELS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.MODELS\\BolsaEmpleo.MODELS.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\PROYECTOS\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.MODELS\\BolsaEmpleo.MODELS.csproj",
         "projectName": "BolsaEmpleo.MODELS",
-        "projectPath": "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.MODELS\\BolsaEmpleo.MODELS.csproj",
-        "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.MODELS\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\PROYECTOS\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.MODELS\\BolsaEmpleo.MODELS.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\PROYECTOS\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.MODELS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

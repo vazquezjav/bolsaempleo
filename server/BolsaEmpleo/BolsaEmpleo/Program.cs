@@ -37,9 +37,12 @@ builder.Services.AddCors(options =>
         build.AllowCredentials().Build();
     });
 });
+
+
 BolsaEmpleoSystem.addInstanceSystem(builder.Services);
 var app = builder.Build();
-
+ConfigurationManager configuration = builder.Configuration; // allows both to access and to set up the config
+IHostEnvironment environment = builder.Environment;
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

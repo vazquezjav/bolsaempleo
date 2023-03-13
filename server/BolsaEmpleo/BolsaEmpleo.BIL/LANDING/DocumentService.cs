@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Hosting;
+using System.Reflection;
 
 namespace BolsaEmpleo.BIL.LANDING
 {
@@ -33,10 +34,11 @@ namespace BolsaEmpleo.BIL.LANDING
         {
 
         }
-        public async Task<DocumentModel> saveDirectory(IFormFile file, string folder, string name, UsuarioModel user)
+        public async Task<DocumentModel> saveDirectory(IFormFile file, string folder, UsuarioModel user)
         {
             string webRootPath = this.hostingEnvironment.ContentRootPath;
             string extension = System.IO.Path.GetExtension(file.FileName).Substring(1);
+            string name = file.FileName + $"_{Guid.NewGuid().ToString("n").Substring(24)}";
             name = name.Replace("." + extension, "");
             name = name + "." + extension;
             string path = Path.Combine(webRootPath, "wwwroot", folder);

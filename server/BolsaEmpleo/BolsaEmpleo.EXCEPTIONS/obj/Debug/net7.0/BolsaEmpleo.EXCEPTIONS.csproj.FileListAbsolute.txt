@@ -10,3 +10,15 @@ C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCE
 C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\obj\Debug\net7.0\refint\BolsaEmpleo.EXCEPTIONS.dll
 C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\obj\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.pdb
 C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\obj\Debug\net7.0\ref\BolsaEmpleo.EXCEPTIONS.dll
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\bin\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.deps.json
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\bin\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.dll
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\bin\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.pdb
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\obj\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\obj\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\obj\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\obj\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\obj\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\obj\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.dll
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\obj\Debug\net7.0\refint\BolsaEmpleo.EXCEPTIONS.dll
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\obj\Debug\net7.0\BolsaEmpleo.EXCEPTIONS.pdb
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.EXCEPTIONS\obj\Debug\net7.0\ref\BolsaEmpleo.EXCEPTIONS.dll

@@ -10,3 +10,15 @@ C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODE
 C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\refint\BolsaEmpleo.MODELS.dll
 C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.pdb
 C:\Users\vazqu\Desktop\Proyectos\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\ref\BolsaEmpleo.MODELS.dll
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\bin\Debug\net7.0\BolsaEmpleo.MODELS.deps.json
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\bin\Debug\net7.0\BolsaEmpleo.MODELS.dll
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\bin\Debug\net7.0\BolsaEmpleo.MODELS.pdb
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.dll
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\refint\BolsaEmpleo.MODELS.dll
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\BolsaEmpleo.MODELS.pdb
+C:\Users\Usuario\Desktop\PROYECTOS\bolsaempleo\server\BolsaEmpleo\BolsaEmpleo.MODELS\obj\Debug\net7.0\ref\BolsaEmpleo.MODELS.dll

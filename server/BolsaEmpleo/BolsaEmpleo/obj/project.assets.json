@@ -1316,6 +1316,9 @@
       "BolsaEmpleo.MODELS/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
         "compile": {
           "bin/placeholder/BolsaEmpleo.MODELS.dll": {}
         },
@@ -3638,19 +3641,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vazqu\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo\\BolsaEmpleo.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\PROYECTOS\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo\\BolsaEmpleo.csproj",
       "projectName": "BolsaEmpleo",
-      "projectPath": "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo\\BolsaEmpleo.csproj",
-      "packagesPath": "C:\\Users\\vazqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\PROYECTOS\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo\\BolsaEmpleo.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\PROYECTOS\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vazqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3664,11 +3667,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.BIL\\BolsaEmpleo.BIL.csproj": {
-              "projectPath": "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.BIL\\BolsaEmpleo.BIL.csproj"
+            "C:\\Users\\Usuario\\Desktop\\PROYECTOS\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.BIL\\BolsaEmpleo.BIL.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\PROYECTOS\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.BIL\\BolsaEmpleo.BIL.csproj"
             },
-            "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.DAL\\BolsaEmpleo.DAL.csproj": {
-              "projectPath": "C:\\Users\\vazqu\\Desktop\\Proyectos\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.DAL\\BolsaEmpleo.DAL.csproj"
+            "C:\\Users\\Usuario\\Desktop\\PROYECTOS\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.DAL\\BolsaEmpleo.DAL.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\PROYECTOS\\bolsaempleo\\server\\BolsaEmpleo\\BolsaEmpleo.DAL\\BolsaEmpleo.DAL.csproj"
             }
           }
         }
@@ -3735,7 +3738,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
